@@ -12,10 +12,10 @@ Comment.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    title: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    // title: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
     body: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -36,13 +36,13 @@ Comment.init(
     //     type: DataTypes.STRING,
     //     allowNull: false,
       // },
-    user_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'User',
-        key: 'id',
-      },
-    },
+    // postId: {
+    //   type: DataTypes.INTEGER,
+    //   references: {
+    //     model: 'Post',
+    //     key: 'id',
+    //   },
+    // },
   },
   {
     sequelize,
