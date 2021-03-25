@@ -20,26 +20,18 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    venue_name: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    date: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    time: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
-    event_url: {
-        type: DataTypes.STRING,
-        allowNull: false,
-      },
-    user_id: {
+    // format_date: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
+    // createdAt: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    // },
+    userId: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'user',
+        model: 'User',
         key: 'id',
       },
     },
@@ -49,7 +41,7 @@ Post.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'event',
+    modelName: 'Post',
   }
 );
 
