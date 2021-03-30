@@ -29,7 +29,6 @@ from the nav bar bar you can sign in or loggin.
 ##Links:
 
 GitHub Ripo:
-https://github.com/zpinson/employee-traker
-
+https://github.com/zpinson/tech-blog
 Deployed link:
-https://drive.google.com/file/d/1IV9vY4Dw3Nh4UpKhdCUU4T4BLaZJj-38/view
+https://zptheckblog.herokuapp.com
